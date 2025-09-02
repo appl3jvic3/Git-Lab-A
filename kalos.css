@@ -1,0 +1,72 @@
+body {
+    background: radial-gradient(circle at center, #f5f7fa, #c3cfe2);
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    text-align: center;
+    padding: 30px;
+}
+
+header {
+    background-color: #ffcb05;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-family: 'Pokemon Solid', cursive, Arial, sans-serif;
+    font-size: 3rem;
+    color: #3b4cca;
+    text-shadow: 2px 2px #ff0000;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #2a2a2a;
+}
+
+.liga {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.campeon, .entrenador {
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+    width: 250px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.campeon:hover, .entrenador:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+}
+
+.campeon img, .entrenador img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.campeon h2, .entrenador h2 {
+    color: #3b4cca;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.campeon p, .entrenador p {
+    font-size: 1rem;
+    color: #555;
+}
+
+footer {
+    margin-top: 50px;
+    font-size: 0.9rem;
+    color: #777;
+}
